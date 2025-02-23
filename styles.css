@@ -1,0 +1,36 @@
+header > nav{
+    float: right;
+}
+
+body{
+    max-width: 850px;
+    margin: 24px auto;
+    background-image: url(https://raw.githubusercontent.com/joeygarcia4/m5-hw5-garcia-jose/refs/heads/main/assets/subtle_white_mini_waves.webp);
+}
+
+article > img{
+    max-width: 200px;
+    float: left;
+    margin-right: 24px;
+}
+
+article{
+    float: left;
+    max-width: 600px;
+    padding-right: 50px;
+}
+
+nav > a{
+    padding: 5px;
+}
+ 
+main::after{
+    content: "";
+    clear: both;
+    display: block;
+}
+
+footer{
+    text-align: center;
+    margin-top: 24px;
+}
