@@ -10,3 +10,57 @@ header {
     align-items: center;
     padding: 0 10px;
 }
+
+header a {
+    text-decoration: none;
+    font-weight: bold;
+}
+
+header nav {
+    display: flex;
+}
+
+header nav > a {
+    padding: 5px;
+    text-decoration: none;
+}
+
+main {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 24px;
+}
+
+main > h1 {
+    flex-basis: 100%;
+    margin: 0;
+}
+
+section {
+    flex: 0 0 65%;
+}
+
+aside {
+    flex: 0 0 30%;
+}
+
+article {
+    max-width: 600px;
+    padding-right: 50px;
+}
+
+article > img {
+    max-width: 200px;
+    float: left;
+    margin-right: 24px;
+}
+
+aside nav {
+    display: flex;
+    gap: 10px;
+}
+
+footer {
+    text-align: center;
+    margin-top: 24px;
+}
